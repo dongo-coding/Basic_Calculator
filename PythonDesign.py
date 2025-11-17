@@ -10,3 +10,18 @@ print()
 print("=" * 40)
 print("🎉 CHƯƠNG TRÌNH ĐẦU TIÊN THÀNH CÔNG! 🎉")
 print("=" * 40)
+
+----------------------------------------------------------
+
+# In trên cùng một dòng
+print("Hello", end=" ")
+print("World!")
+# Kết quả: Hello World!
+
+# Thay đổi ký tự phân cách
+print("Táo", "Cam", "Chuối", sep=" - ")
+# Kết quả: Táo - Cam - Chuối
+
+# In nhiều thông tin
+print("Tên:", "Minh", "Tuổi:", 15, "Lớp:", "10A")
+# Kết quả: Tên: Minh Tuổi: 15 Lớp: 10A
