@@ -22,6 +22,8 @@ print("World!")
 print("Táo", "Cam", "Chuối", sep=" - ")
 # Kết quả: Táo - Cam - Chuối
 
+print("Python", "rất", "thú vị", sep=" ", end="!\n")
+
 # In nhiều thông tin
 print("Tên:", "Minh", "Tuổi:", 15, "Lớp:", "10A")
 # Kết quả: Tên: Minh Tuổi: 15 Lớp: 10A
