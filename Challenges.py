@@ -1,3 +1,21 @@
+#01
+
+name = input("Tên của bạn: ")
+age = int(input("Tuổi: "))
+hobby = input("Sở thích: ")
+
+print("\n" + "🌟" * 40)
+print(f"{'🎭 THÔNG TIN CÁ NHÂN':^40}")
+print("🌟" * 40)
+print(f"👤 Tên: {name}")
+print(f"🎂 Tuổi: {age} tuổi")
+print(f"❤️ Sở thích: {hobby}")
+print(f"📅 Năm sinh: {2024 - age}")
+print("🌟" * 40)
+print("✨ Chúc bạn học Python vui vẻ! ✨")
+
+#In thông tin cá nhân đẹp
+
 
 #02
 
