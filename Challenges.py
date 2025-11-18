@@ -30,3 +30,16 @@ print(f"Tổng số tiền phải trả bao gồm tiền tip là : {total_amount
 
 #03
 
+import time
+import sys
+
+second = int(input("Đếm ngược bao nhiêu giây : "))
+while(second>=0):
+  print(f"\r Thời gian còn lại là {second:2d} giây", end = ' ')
+  sys.stdout.flush()
+  time.sleep(1)
+  second-=1
+print("\nHết giờ!!!!")
+
+#Đếm ngược thời gian đơn giản
+
